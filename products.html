@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terra Tribe Fashion | Products</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="site-title">Terra Tribe Fashion</h1>
+    <p class="tagline">Terra roots. Tribe energy.</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="products.html">Products</a></li>
+        <li><a href="trustees.html">Trustees</a></li>
+        <li><a href="inquiries.html">Inquiries</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="dom.html">DOM</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="marquee" aria-label="Upcoming events">
+    <div class="marquee-track">Eko Luxe Season Preview • Mar 21, 2026 • Lagos | Lagos Runway Showcase Night • May 15, 2026 • Lagos | Abuja Couture Brunch • Sep 12, 2026 • Abuja | Year End Gala and Awards • Dec 5, 2026 • Abuja</div>
+  </section>
+  <main>
+    <section class="card">
+      <label for="productSearch">Search products</label>
+      <input id="productSearch" type="text" placeholder="Type a product name">
+      <p>Favorites: <strong id="favoritesCount">0</strong></p>
+    </section>
+    <section class="grid product-grid" id="productGrid">
+      <article class="card product-item" data-name="heritage line ankara blazer">
+        <div class="image-box"><img src="images/product1.jpg" alt="Heritage Line Ankara Blazer" data-fallback><div class="placeholder">Image unavailable</div></div>
+        <h2>Heritage Line Ankara Blazer</h2>
+        <p>₦45,000</p>
+        <button type="button" data-product="Heritage Line Ankara Blazer">Add to favorites</button>
+      </article>
+      <article class="card product-item" data-name="indigo stillness adire maxi dress">
+        <div class="image-box"><img src="images/product2.jpg" alt="Indigo Stillness Adire Maxi Dress" data-fallback><div class="placeholder">Image unavailable</div></div>
+        <h2>Indigo Stillness Adire Maxi Dress</h2>
+        <p>₦55,000</p>
+        <button type="button" data-product="Indigo Stillness Adire Maxi Dress">Add to favorites</button>
+      </article>
+      <article class="card product-item" data-name="the quiet regal agbada set">
+        <div class="image-box"><img src="images/product3.jpg" alt="The Quiet Regal Agbada Set" data-fallback><div class="placeholder">Image unavailable</div></div>
+        <h2>The Quiet Regal Agbada Set</h2>
+        <p>₦120,000</p>
+        <button type="button" data-product="The Quiet Regal Agbada Set">Add to favorites</button>
+      </article>
+      <article class="card product-item" data-name="oke signature fila cap">
+        <div class="image-box"><img src="images/product4.jpg" alt="Oke Signature Fila Cap" data-fallback><div class="placeholder">Image unavailable</div></div>
+        <h2>Oke Signature Fila Cap</h2>
+        <p>₦18,000</p>
+        <button type="button" data-product="Oke Signature Fila Cap">Add to favorites</button>
+      </article>
+      <article class="card product-item" data-name="savannah stone leather tote">
+        <div class="image-box"><img src="images/product5.jpg" alt="Savannah Stone Leather Tote" data-fallback><div class="placeholder">Image unavailable</div></div>
+        <h2>Savannah Stone Leather Tote</h2>
+        <p>₦65,000</p>
+        <button type="button" data-product="Savannah Stone Leather Tote">Add to favorites</button>
+      </article>
+      <article class="card product-item" data-name="coral veil beaded set">
+        <div class="image-box"><img src="images/product6.jpg" alt="Coral Veil Beaded Set" data-fallback><div class="placeholder">Image unavailable</div></div>
+        <h2>Coral Veil Beaded Set</h2>
+        <p>₦25,000</p>
+        <button type="button" data-product="Coral Veil Beaded Set">Add to favorites</button>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>Terra Tribe Fashion — Terra roots. Tribe energy.</p>
+    <p>Serving Lagos and Abuja, Nigeria.</p>
+  </footer>
+  <script src="js/products.js"></script>
+</body>
+</html>
