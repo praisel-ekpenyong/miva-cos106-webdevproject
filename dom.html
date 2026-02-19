@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terra Tribe Fashion | DOM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="sharedHeader">
+    <h1 class="site-title">Terra Tribe Fashion</h1>
+    <p class="tagline">Terra roots. Tribe energy.</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="trustees.html">Trustees</a></li>
+        <li><a href="inquiries.html">Inquiries</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a class="active" href="dom.html">DOM</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="marquee" aria-label="Upcoming events">
+    <div class="marquee-track">Eko Luxe Season Preview • Mar 21, 2026 • Lagos | Lagos Runway Showcase Night • May 15, 2026 • Lagos | Abuja Couture Brunch • Sep 12, 2026 • Abuja | Year End Gala and Awards • Dec 5, 2026 • Abuja</div>
+  </section>
+  <main>
+    <section class="card">
+      <h2>What is the DOM?</h2>
+      <p>The DOM (Document Object Model) is how the browser organizes your web page into a tree that JavaScript can read and update.</p>
+      <button type="button" id="toggleTree">Show/Hide DOM Tree</button>
+      <button type="button" id="toggleHeaderHighlight">Highlight Header</button>
+    </section>
+
+    <section class="card" id="domTreeSection">
+      <h3>Shared page DOM tree</h3>
+      <ul>
+        <li>html
+          <ul>
+            <li>body
+              <ul>
+                <li>header
+                  <ul><li>nav</li></ul>
+                </li>
+                <li>marquee</li>
+                <li>main</li>
+                <li>footer</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Terra Tribe Fashion — Terra roots. Tribe energy.</p>
+    <p>Serving Lagos and Abuja, Nigeria.</p>
+  </footer>
+  <script src="js/dom.js"></script>
+</body>
+</html>
